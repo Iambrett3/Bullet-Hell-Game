@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:24:04 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Fri Apr 17 17:50:57 2015
+# Process ID: 2980
+# Log file: C:/Brett/School/Spring15/541/labs/brett_game/brett_game.runs/synth_2/top.vds
+# Journal file: C:/Brett/School/Spring15/541/labs/brett_game/brett_game.runs/synth_2\vivado.jou
+#-----------------------------------------------------------
+source top.tcl

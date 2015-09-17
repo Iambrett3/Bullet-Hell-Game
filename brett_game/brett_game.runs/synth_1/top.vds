@@ -1,0 +1,685 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:24:04 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Sun Apr 19 23:00:31 2015
+# Process ID: 3456
+# Log file: C:/Brett/School/Spring15/541/labs/brett_game/brett_game.runs/synth_1/top.vds
+# Journal file: C:/Brett/School/Spring15/541/labs/brett_game/brett_game.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl
+# set_param gui.test TreeTableDev
+# set_param xicom.use_bs_reader 1
+# debug::add_scope template.lib 1
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# create_project -in_memory -part xc7a100tcsg324-1
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:0.9 available at C:/Xilinx/Vivado/2014.4/data/boards/board_parts/kintex7/kc705/0.9/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.0 available at C:/Xilinx/Vivado/2014.4/data/boards/board_parts/kintex7/kc705/1.0/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.1 available at C:/Xilinx/Vivado/2014.4/data/boards/board_parts/kintex7/kc705/1.1/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:0.9 available at C:/Xilinx/Vivado/2014.4/data/boards/board_parts/zynq/zc706/0.9/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.0 available at C:/Xilinx/Vivado/2014.4/data/boards/board_parts/zynq/zc706/1.0/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.1 available at C:/Xilinx/Vivado/2014.4/data/boards/board_parts/zynq/zc706/1.1/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+# set_param project.compositeFile.enableAutoGeneration 0
+# set_param synth.vivado.isSynthRun true
+# set_property webtalk.parent_dir C:/Brett/School/Spring15/541/labs/brett_game/brett_game.cache/wt [current_project]
+# set_property parent.project_path C:/Brett/School/Spring15/541/labs/brett_game/brett_game.xpr [current_project]
+# set_property default_lib xil_defaultlib [current_project]
+# set_property target_language Verilog [current_project]
+# read_verilog C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/new/NoMoreMagicNumbers.sv
+# set_property file_type "Verilog Header" [get_files C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/new/NoMoreMagicNumbers.sv]
+# read_verilog -library xil_defaultlib -sv {
+#   C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/sources_1/imports/new/xycounter.sv
+#   {C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/imports/Lab9 files/register_file.sv}
+#   C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/new/screenmemory.sv
+#   C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/new/bitmapmemory.sv
+#   C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/new/vgatimer.sv
+#   C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/new/dmem.sv
+#   {C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/lab10 files/controller.sv}
+#   C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/new/datapath.sv
+#   C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/new/mem_mapper.sv
+#   {C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/project_1 files/clockdiv.sv}
+#   C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/new/vgadisplaydriver.sv
+#   C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/new/imem.sv
+#   C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/new/memIO.sv
+#   {C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/lab10 files/mips.sv}
+#   {C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/project_1 files/top.sv}
+#   C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/new/keyboard.sv
+#   C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/new/display8digit.sv
+#   {C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/Lab 5 files/hexto7seg.sv}
+#   C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/new/keyboard_test.sv
+# }
+# read_verilog -library xil_defaultlib {
+#   C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/imports/new/fuladder.v
+#   C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/imports/new/adder.v
+#   C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/imports/new/comparator.v
+#   C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/imports/new/logical.v
+#   C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/imports/new/addsub.v
+#   C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/imports/new/shifter.v
+#   C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/imports/new/ALU.v
+# }
+# read_xdc C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/constrs_1/imports/labs/top.xdc
+# set_property used_in_implementation false [get_files C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/constrs_1/imports/labs/top.xdc]
+# catch { write_hwdef -file top.hwdef }
+INFO: [Vivado_Tcl 4-279] hardware handoff file cannot be generated as there is no block diagram instance in the design
+# synth_design -top top -part xc7a100tcsg324-1
+Command: synth_design -top top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 234.570 ; gain = 74.105
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/project_1 files/top.sv:10]
+	Parameter imem_init bound to: gamesimpimem.txt - type: string 
+	Parameter dmem_init bound to: brett_game_data_mem.txt - type: string 
+	Parameter smem_init bound to: brett_game_screen_mem.txt - type: string 
+	Parameter bitmap_init bound to: brett_game_bitmap_mem.txt - type: string 
+INFO: [Synth 8-638] synthesizing module 'clockdivider_Nexys4' [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/project_1 files/clockdiv.sv:10]
+	Parameter N bound to: 2 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'MMCME2_BASE' [C:/Xilinx/Vivado/2014.4/scripts/rt/data/unisim_comp.v:16110]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+	Parameter CLKOUT1_DIVIDE bound to: 20 - type: integer 
+	Parameter CLKOUT2_DIVIDE bound to: 40 - type: integer 
+	Parameter CLKOUT3_DIVIDE bound to: 80 - type: integer 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT6_DIVIDE bound to: 1 - type: integer 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKFBOUT_MULT_F bound to: 10.000000 - type: float 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKIN1_PERIOD bound to: 10.000000 - type: float 
+	Parameter CLKOUT0_DIVIDE_F bound to: 10.000000 - type: float 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT6_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT6_PHASE bound to: 0.000000 - type: float 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: float 
+INFO: [Synth 8-256] done synthesizing module 'MMCME2_BASE' (1#1) [C:/Xilinx/Vivado/2014.4/scripts/rt/data/unisim_comp.v:16110]
+WARNING: [Synth 8-350] instance 'mmcm' of module 'MMCME2_BASE' requires 18 connections, but only 10 given [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/project_1 files/clockdiv.sv:14]
+INFO: [Synth 8-638] synthesizing module 'BUFG' [C:/Xilinx/Vivado/2014.4/scripts/rt/data/unisim_comp.v:606]
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (2#1) [C:/Xilinx/Vivado/2014.4/scripts/rt/data/unisim_comp.v:606]
+INFO: [Synth 8-638] synthesizing module 'INV' [C:/Xilinx/Vivado/2014.4/scripts/rt/data/unisim_comp.v:12850]
+INFO: [Synth 8-256] done synthesizing module 'INV' (3#1) [C:/Xilinx/Vivado/2014.4/scripts/rt/data/unisim_comp.v:12850]
+INFO: [Synth 8-638] synthesizing module 'BUFGMUX' [C:/Xilinx/Vivado/2014.4/scripts/rt/data/unisim_comp.v:695]
+	Parameter CLK_SEL_TYPE bound to: ASYNC - type: string 
+INFO: [Synth 8-256] done synthesizing module 'BUFGMUX' (4#1) [C:/Xilinx/Vivado/2014.4/scripts/rt/data/unisim_comp.v:695]
+INFO: [Synth 8-256] done synthesizing module 'clockdivider_Nexys4' (5#1) [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/project_1 files/clockdiv.sv:10]
+INFO: [Synth 8-638] synthesizing module 'mips' [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/lab10 files/mips.sv:9]
+INFO: [Synth 8-638] synthesizing module 'controller' [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/lab10 files/controller.sv:37]
+INFO: [Synth 8-256] done synthesizing module 'controller' (6#1) [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/lab10 files/controller.sv:37]
+INFO: [Synth 8-638] synthesizing module 'datapath' [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/new/datapath.sv:23]
+	Parameter Nloc bound to: 32 - type: integer 
+	Parameter Abits bound to: 32 - type: integer 
+	Parameter Dbits bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'register_file' [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/imports/Lab9 files/register_file.sv:9]
+	Parameter Abits bound to: 5 - type: integer 
+	Parameter Dbits bound to: 32 - type: integer 
+	Parameter Nloc bound to: 32 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'brett_game_reg_mem.txt' is read successfully [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/imports/Lab9 files/register_file.sv:23]
+INFO: [Synth 8-256] done synthesizing module 'register_file' (7#1) [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/imports/Lab9 files/register_file.sv:9]
+INFO: [Synth 8-638] synthesizing module 'ALU' [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/imports/new/ALU.v:23]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'addsub' [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/imports/new/addsub.v:23]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'adder' [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/imports/new/adder.v:23]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'fulladder' [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/imports/new/fuladder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'fulladder' (8#1) [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/imports/new/fuladder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'adder' (9#1) [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/imports/new/adder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'addsub' (10#1) [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/imports/new/addsub.v:23]
+INFO: [Synth 8-638] synthesizing module 'shifter' [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/imports/new/shifter.v:23]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'shifter' (11#1) [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/imports/new/shifter.v:23]
+INFO: [Synth 8-638] synthesizing module 'logical' [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/imports/new/logical.v:23]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'logical' (12#1) [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/imports/new/logical.v:23]
+INFO: [Synth 8-638] synthesizing module 'comparator' [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/imports/new/comparator.v:23]
+INFO: [Synth 8-256] done synthesizing module 'comparator' (13#1) [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/imports/new/comparator.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (14#1) [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/imports/new/ALU.v:23]
+INFO: [Synth 8-256] done synthesizing module 'datapath' (15#1) [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/new/datapath.sv:23]
+INFO: [Synth 8-256] done synthesizing module 'mips' (16#1) [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/lab10 files/mips.sv:9]
+INFO: [Synth 8-638] synthesizing module 'imem' [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/new/imem.sv:23]
+	Parameter Abits bound to: 13 - type: integer 
+	Parameter Dbits bound to: 32 - type: integer 
+	Parameter Nloc bound to: 8192 - type: integer 
+	Parameter imem_init bound to: gamesimpimem.txt - type: string 
+INFO: [Synth 8-3876] $readmem data file 'gamesimpimem.txt' is read successfully [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/new/imem.sv:35]
+INFO: [Synth 8-256] done synthesizing module 'imem' (17#1) [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/new/imem.sv:23]
+WARNING: [Synth 8-689] width (32) of port connection 'pc' does not match port width (13) of module 'imem' [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/project_1 files/top.sv:50]
+INFO: [Synth 8-638] synthesizing module 'memIO' [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/new/memIO.sv:24]
+	Parameter dmem_init bound to: brett_game_data_mem.txt - type: string 
+	Parameter smem_init bound to: brett_game_screen_mem.txt - type: string 
+INFO: [Synth 8-638] synthesizing module 'mem_mapper' [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/new/mem_mapper.sv:23]
+WARNING: [Synth 8-693] zero replication count - replication ignored [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/new/mem_mapper.sv:38]
+INFO: [Synth 8-256] done synthesizing module 'mem_mapper' (18#1) [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/new/mem_mapper.sv:23]
+INFO: [Synth 8-638] synthesizing module 'screenmemory' [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/new/screenmemory.sv:23]
+	Parameter Abits bound to: 17 - type: integer 
+	Parameter Dbits bound to: 4 - type: integer 
+	Parameter Nloc bound to: 76800 - type: integer 
+	Parameter smem_init bound to: brett_game_screen_mem.txt - type: string 
+INFO: [Synth 8-3876] $readmem data file 'brett_game_screen_mem.txt' is read successfully [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/new/screenmemory.sv:44]
+INFO: [Synth 8-256] done synthesizing module 'screenmemory' (19#1) [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/new/screenmemory.sv:23]
+WARNING: [Synth 8-689] width (32) of port connection 'writedata' does not match port width (4) of module 'screenmemory' [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/new/memIO.sv:47]
+INFO: [Synth 8-638] synthesizing module 'dmem' [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/new/dmem.sv:23]
+	Parameter Abits bound to: 17 - type: integer 
+	Parameter Dbits bound to: 32 - type: integer 
+	Parameter Nloc bound to: 8192 - type: integer 
+	Parameter dmem_init bound to: brett_game_data_mem.txt - type: string 
+INFO: [Synth 8-3876] $readmem data file 'brett_game_data_mem.txt' is read successfully [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/new/dmem.sv:38]
+INFO: [Synth 8-256] done synthesizing module 'dmem' (20#1) [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/new/dmem.sv:23]
+INFO: [Synth 8-256] done synthesizing module 'memIO' (21#1) [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/new/memIO.sv:24]
+INFO: [Synth 8-638] synthesizing module 'vgadisplaydriver' [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/new/vgadisplaydriver.sv:23]
+	Parameter bitmap_init bound to: brett_game_bitmap_mem.txt - type: string 
+INFO: [Synth 8-638] synthesizing module 'vgatimer' [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/new/vgatimer.sv:5]
+INFO: [Synth 8-638] synthesizing module 'xycounter' [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/sources_1/imports/new/xycounter.sv:3]
+	Parameter width bound to: 800 - type: integer 
+	Parameter height bound to: 525 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'xycounter' (22#1) [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/sources_1/imports/new/xycounter.sv:3]
+INFO: [Synth 8-256] done synthesizing module 'vgatimer' (23#1) [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/new/vgatimer.sv:5]
+INFO: [Synth 8-638] synthesizing module 'bitmapmemory' [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/new/bitmapmemory.sv:23]
+	Parameter Abits bound to: 6 - type: integer 
+	Parameter Dbits bound to: 12 - type: integer 
+	Parameter Nloc bound to: 40 - type: integer 
+	Parameter bitmap_init bound to: brett_game_bitmap_mem.txt - type: string 
+INFO: [Synth 8-3876] $readmem data file 'brett_game_bitmap_mem.txt' is read successfully [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/new/bitmapmemory.sv:35]
+INFO: [Synth 8-256] done synthesizing module 'bitmapmemory' (24#1) [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/new/bitmapmemory.sv:23]
+INFO: [Synth 8-256] done synthesizing module 'vgadisplaydriver' (25#1) [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/new/vgadisplaydriver.sv:23]
+INFO: [Synth 8-638] synthesizing module 'keyboard' [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/new/keyboard.sv:7]
+INFO: [Synth 8-256] done synthesizing module 'keyboard' (26#1) [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/new/keyboard.sv:7]
+INFO: [Synth 8-638] synthesizing module 'display8digit' [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/new/display8digit.sv:8]
+INFO: [Synth 8-638] synthesizing module 'hexto7seg' [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/Lab 5 files/hexto7seg.sv:9]
+INFO: [Synth 8-256] done synthesizing module 'hexto7seg' (27#1) [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/Lab 5 files/hexto7seg.sv:9]
+INFO: [Synth 8-256] done synthesizing module 'display8digit' (28#1) [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/new/display8digit.sv:8]
+INFO: [Synth 8-256] done synthesizing module 'top' (29#1) [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/sources_1/imports/sources_1/imports/project_1 files/top.sv:10]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 295.055 ; gain = 134.590
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 295.055 ; gain = 134.590
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a100t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a100t/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/Vivado/2014.4/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a100t/csg324/Package.xml
+Loading io standards from C:/Xilinx/Vivado/2014.4/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/ConfigModes.xml
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/constrs_1/imports/labs/top.xdc]
+Finished Parsing XDC File [C:/Brett/School/Spring15/541/labs/brett_game/brett_game.srcs/constrs_1/imports/labs/top.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 5 instances were transformed.
+  BUFGMUX => BUFGCTRL (inverted pins: CE0): 4 instances
+  MMCME2_BASE => MMCME2_ADV: 1 instances
+
+INFO: [Timing 38-2] Deriving generated clocks
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 598.461 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 598.461 ; gain = 437.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 598.461 ; gain = 437.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 598.461 ; gain = 437.996
+---------------------------------------------------------------------------------
+ROM "rf" won't be mapped to RAM because it is too sparse.
+ROM "count" won't be mapped to Block RAM because address size (2) smaller than threshold (5) 
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 598.461 ; gain = 437.996
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     17 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 2     
+	   2 Input      1 Bit         XORs := 66    
++---Registers : 
+	               32 Bit    Registers := 1     
+	               24 Bit    Registers := 1     
+	               10 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 15    
+	   5 Input     32 Bit        Muxes := 1     
+	   4 Input     32 Bit        Muxes := 3     
+	 279 Input     32 Bit        Muxes := 1     
+	   2 Input     24 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 1     
+	   4 Input     10 Bit        Muxes := 1     
+	  10 Input     10 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	  17 Input      8 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+	  13 Input      5 Bit        Muxes := 1     
+	   7 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 3     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module top 
+Detailed RTL Component Info : 
+Module clockdivider_Nexys4 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                3 Bit    Registers := 1     
+Module controller 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     10 Bit        Muxes := 1     
+	  10 Input     10 Bit        Muxes := 1     
+	  13 Input      5 Bit        Muxes := 1     
+	   7 Input      5 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 3     
+Module register_file 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+Module fulladder 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
+Module adder 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module addsub 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+Module shifter 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+Module logical 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Muxes : 
+	   5 Input     32 Bit        Muxes := 1     
+Module comparator 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module ALU 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+Module datapath 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 8     
+	   4 Input     32 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 2     
+	   4 Input      2 Bit        Muxes := 1     
+Module mips 
+Detailed RTL Component Info : 
+Module imem 
+Detailed RTL Component Info : 
++---Muxes : 
+	 279 Input     32 Bit        Muxes := 1     
+Module mem_mapper 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module screenmemory 
+Detailed RTL Component Info : 
+Module dmem 
+Detailed RTL Component Info : 
+Module memIO 
+Detailed RTL Component Info : 
+Module xycounter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 2     
++---Registers : 
+	               10 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 1     
+Module vgatimer 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
+Module bitmapmemory 
+Detailed RTL Component Info : 
+Module vgadisplaydriver 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     17 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+Module keyboard 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               24 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     24 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module hexto7seg 
+Detailed RTL Component Info : 
++---Muxes : 
+	  17 Input      8 Bit        Muxes := 1     
+Module display8digit 
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 598.461 ; gain = 437.996
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+ROM "myhexencoder/" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 598.461 ; gain = 437.996
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 598.461 ; gain = 437.996
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: 
++------------+-------------------+--------------------+----------------------+--------------------+-------------------+
+|Module Name | RTL Object        | Inference Criteria | Size (depth X width) | Primitives         | Hierarchical Name | 
++------------+-------------------+--------------------+----------------------+--------------------+-------------------+
+|mips        | dp/regFile/rf_reg | Implied            | 32 X 32              | RAM32M x 12        | top/mips/ram__6   | 
+|memIO       | screenmem/rf_reg  | Implied            | 128 K X 4            | RAM128X1D x 2400   | top/memIO/ram__8  | 
+|memIO       | dmem/rf_reg       | Implied            | 8 K X 32             | RAM256X1S x 1024   | top/memIO/ram__10 | 
++------------+-------------------+--------------------+----------------------+--------------------+-------------------+
+
+Note: The table shows RAMs generated at current stage. Some RAM generation could be reversed due to later optimizations. Multiple instantiated RAMs are reported only once. "Hierarchical Name" reflects the hierarchical modules names of the RAM and only part of it is displayed.
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (\counter_reg[20] ) is unused and will be removed from module display8digit.
+WARNING: [Synth 8-3332] Sequential element (\counter_reg[21] ) is unused and will be removed from module display8digit.
+WARNING: [Synth 8-3332] Sequential element (\counter_reg[22] ) is unused and will be removed from module display8digit.
+WARNING: [Synth 8-3332] Sequential element (\counter_reg[23] ) is unused and will be removed from module display8digit.
+WARNING: [Synth 8-3332] Sequential element (\counter_reg[24] ) is unused and will be removed from module display8digit.
+WARNING: [Synth 8-3332] Sequential element (\counter_reg[25] ) is unused and will be removed from module display8digit.
+WARNING: [Synth 8-3332] Sequential element (\counter_reg[26] ) is unused and will be removed from module display8digit.
+WARNING: [Synth 8-3332] Sequential element (\counter_reg[27] ) is unused and will be removed from module display8digit.
+WARNING: [Synth 8-3332] Sequential element (\counter_reg[28] ) is unused and will be removed from module display8digit.
+WARNING: [Synth 8-3332] Sequential element (\counter_reg[29] ) is unused and will be removed from module display8digit.
+WARNING: [Synth 8-3332] Sequential element (\counter_reg[30] ) is unused and will be removed from module display8digit.
+WARNING: [Synth 8-3332] Sequential element (\counter_reg[31] ) is unused and will be removed from module display8digit.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (keyboard/\keyb_char_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (keyboard/\keyb_char_reg[16] )
+WARNING: [Synth 8-3332] Sequential element (\keyb_char_reg[23] ) is unused and will be removed from module keyboard.
+WARNING: [Synth 8-3332] Sequential element (\keyb_char_reg[21] ) is unused and will be removed from module keyboard.
+WARNING: [Synth 8-3332] Sequential element (\keyb_char_reg[19] ) is unused and will be removed from module keyboard.
+WARNING: [Synth 8-3332] Sequential element (\keyb_char_reg[18] ) is unused and will be removed from module keyboard.
+WARNING: [Synth 8-3332] Sequential element (\keyb_char_reg[17] ) is unused and will be removed from module keyboard.
+WARNING: [Synth 8-3332] Sequential element (\keyb_char_reg[16] ) is unused and will be removed from module keyboard.
+WARNING: [Synth 8-3332] Sequential element (\keyb_char_reg[15] ) is unused and will be removed from module keyboard.
+WARNING: [Synth 8-3332] Sequential element (\keyb_char_reg[13] ) is unused and will be removed from module keyboard.
+WARNING: [Synth 8-3332] Sequential element (\keyb_char_reg[11] ) is unused and will be removed from module keyboard.
+WARNING: [Synth 8-3332] Sequential element (\keyb_char_reg[10] ) is unused and will be removed from module keyboard.
+WARNING: [Synth 8-3332] Sequential element (\keyb_char_reg[9] ) is unused and will be removed from module keyboard.
+WARNING: [Synth 8-3332] Sequential element (\keyb_char_reg[8] ) is unused and will be removed from module keyboard.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:01:09 ; elapsed = 00:01:11 . Memory (MB): peak = 601.000 ; gain = 440.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:01:09 ; elapsed = 00:01:11 . Memory (MB): peak = 601.000 ; gain = 440.535
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:01:09 ; elapsed = 00:01:11 . Memory (MB): peak = 601.000 ; gain = 440.535
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:01:09 ; elapsed = 00:01:11 . Memory (MB): peak = 601.000 ; gain = 440.535
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:28 ; elapsed = 00:01:30 . Memory (MB): peak = 639.195 ; gain = 478.730
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:32 ; elapsed = 00:01:34 . Memory (MB): peak = 662.398 ; gain = 501.934
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:03:15 ; elapsed = 00:03:33 . Memory (MB): peak = 1034.969 ; gain = 874.504
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:03:18 ; elapsed = 00:03:36 . Memory (MB): peak = 1034.969 ; gain = 874.504
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:03:18 ; elapsed = 00:03:36 . Memory (MB): peak = 1034.969 ; gain = 874.504
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:20 ; elapsed = 00:03:38 . Memory (MB): peak = 1034.969 ; gain = 874.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------------+------+
+|      |Cell        |Count |
++------+------------+------+
+|1     |BUFG        |     1|
+|2     |BUFGMUX     |     4|
+|3     |CARRY4      |    29|
+|4     |LUT1        |    77|
+|5     |LUT2        |   162|
+|6     |LUT3        |   197|
+|7     |LUT4        |   321|
+|8     |LUT5        |   332|
+|9     |LUT6        |  2831|
+|10    |MMCME2_BASE |     1|
+|11    |MUXF7       |   761|
+|12    |MUXF8       |   332|
+|13    |RAM128X1D   |  2400|
+|14    |RAM256X1S   |  1024|
+|15    |RAM32M      |    12|
+|16    |FDRE        |   125|
+|17    |IBUF        |     4|
+|18    |OBUF        |    30|
++------+------------+------+
+
+Report Instance Areas: 
++------+---------------+--------------------+------+
+|      |Instance       |Module              |Cells |
++------+---------------+--------------------+------+
+|1     |top            |                    |  8643|
+|2     |  clkdv        |clockdivider_Nexys4 |    13|
+|3     |  disp         |display8digit       |    53|
+|4     |  display      |vgadisplaydriver    |    80|
+|5     |    myvgatimer |vgatimer            |    80|
+|6     |      xy       |xycounter           |    76|
+|7     |  keyboard     |keyboard            |   114|
+|8     |  memIO        |memIO               |  6061|
+|9     |    dmem       |dmem                |  1452|
+|10    |    memmap     |mem_mapper          |     3|
+|11    |    screenmem  |screenmemory        |  4606|
+|12    |  mips         |mips                |  2288|
+|13    |    dp         |datapath            |  2288|
+|14    |      regFile  |register_file       |  2141|
++------+---------------+--------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:03:20 ; elapsed = 00:03:38 . Memory (MB): peak = 1034.969 ; gain = 874.504
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 24 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:03:27 . Memory (MB): peak = 1034.969 ; gain = 552.047
+Synthesis Optimization Complete : Time (s): cpu = 00:03:20 ; elapsed = 00:03:38 . Memory (MB): peak = 1034.969 ; gain = 874.504
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 3474 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 3441 instances were transformed.
+  BUFGMUX => BUFGCTRL (inverted pins: CE0): 4 instances
+  MMCME2_BASE => MMCME2_ADV: 1 instances
+  RAM128X1D => RAM128X1D (RAMD64E, RAMD64E, MUXF7, MUXF7, RAMD64E, RAMD64E): 2400 instances
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 1024 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 12 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+80 Infos, 28 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:03:29 ; elapsed = 00:03:47 . Memory (MB): peak = 1034.969 ; gain = 855.504
+# write_checkpoint -noxdef top.dcp
+# catch { report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb }
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.967 . Memory (MB): peak = 1034.969 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 19 23:04:23 2015...

@@ -1,0 +1,45 @@
+000  //9 characters. 
+000  //black blank space character at 0
+000
+000
+bbb  //frame color (gray)
+bbb
+bbb
+bbb
+f0f //explosion character 1
+f0f
+f0f
+f0f
+b2a //explosion character 2
+b2a
+b2a
+b2a
+ff0  //explosion character 3
+ff0
+ff0
+ff0
+0ff   //explosion character 4
+0ff
+0ff
+0ff
+0f0  //explosion character 5
+0f0
+0f0
+0f0
+f00  //explosion character 6
+f00
+f00
+f00
+9fc   //explosion character 7
+9fc
+9fc
+9fc
+36f  //explosion character 8
+36f
+36f
+36f
+f6c  //player character (characode 10)
+f6c
+f6c
+f6c
+

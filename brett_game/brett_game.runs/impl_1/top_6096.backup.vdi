@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:24:04 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Mon Apr 20 09:57:34 2015
+# Process ID: 5468
+# Log file: C:/Brett/School/Spring15/541/labs/brett_game/brett_game.runs/impl_1/top.vdi
+# Journal file: C:/Brett/School/Spring15/541/labs/brett_game/brett_game.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
+
+*** Halting run - EA reset detected ***
+
+
+
+    while executing
+"start_step write_bitstream"
+    (file "top.tcl" line 48)
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 20 09:57:38 2015...

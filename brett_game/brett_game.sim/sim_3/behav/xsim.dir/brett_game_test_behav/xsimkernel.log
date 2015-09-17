@@ -1,0 +1,7 @@
+Running: xsim.dir/brett_game_test_behav/xsimk.exe -simmode gui -wdb brett_game_test_behav.wdb -simrunnum 0 -socket 51415
+Design successfully loaded
+Design Loading Memory Usage: 19384 KB (Peak: 19384 KB)
+Design Loading CPU Usage: 108 ms
+Simulation completed
+Simulation Memory Usage: 21980 KB (Peak: 21980 KB)
+Simulation CPU Usage: 826 ms

@@ -1,0 +1,36 @@
+000  //9 characters. 
+000  //black blank space character at 0
+000
+000
+fff
+fff
+fff
+fff
+0ff
+0ff
+0ff
+0ff
+f0f
+f0f
+f0f
+f0f
+ff0
+ff0
+ff0
+ff0
+00f
+00f
+00f
+00f
+0f0
+0f0
+0f0
+0f0
+f00
+f00
+f00
+f00
+aaa
+aaa
+aaa
+aaa
